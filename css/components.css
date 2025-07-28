@@ -109,6 +109,7 @@ align-items:center;
     line-height: 1em; /* 라인 높이 */
     background-color: transparent; /* 배경색 투명 */
     color: var(--color-link); /* 링크 색상 적용 */
+    justify-content: center;
 }
 
 /* 태그 필터 선택 상자 (select) */
