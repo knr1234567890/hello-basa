@@ -8,9 +8,25 @@
 
 /* --- 웹 폰트 정의 (Web Font Definition) --- */
 @font-face {
-    font-family: 'KimjungchulGothic-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-family: 'KimjungchulGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3; /* 한글 유니코드 범위 */
+}
+
+@font-face {
+    font-family: 'KimjungchulGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Regular.woff2') format('woff2');
     font-weight: 400;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3; /* 한글 유니코드 범위 */
+}
+
+@font-face {
+    font-family: 'KimjungchulGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulGothic-Bold.woff2') format('woff2');
+    font-weight: 700;
     font-style: normal;
     unicode-range: U+AC00-D7A3; /* 한글 유니코드 범위 */
 }
@@ -22,7 +38,7 @@
 */
 :root {
     /* 폰트 변수 */
-    --font-primary: 'Happiness-Sans-Regular', Courier, monospace, sans-serif;
+    --font-primary: 'KimjungchulGothic', Courier, monospace, sans-serif;
     --font-size-small: 0.8rem; /* 작은 텍스트 크기 (13px 기준 10.4px) */
     
     /* 색상 팔레트 */
