@@ -335,7 +335,73 @@ window.addEventListener("load", function() {
     //note that everything must be passed as an array, so the brakets ['...'] are important.
 
     // Apply to the main document
-    animateCursor(['snoopy-frame1.png', 'snoopy-frame2.png']);
+    animateCursor([
+      'hamburger_frame_01.png',
+      'hamburger_frame_02.png',
+      'hamburger_frame_03.png',
+      'hamburger_frame_04.png',
+      'hamburger_frame_05.png',
+      'hamburger_frame_06.png',
+      'hamburger_frame_07.png',
+      'hamburger_frame_08.png',
+      'hamburger_frame_09.png',
+      'hamburger_frame_10.png',
+      'hamburger_frame_11.png',
+      'hamburger_frame_12.png',
+      'hamburger_frame_13.png',
+      'hamburger_frame_14.png',
+      'hamburger_frame_15.png',
+      'hamburger_frame_16.png',
+      'hamburger_frame_17.png',
+      'hamburger_frame_18.png',
+      'hamburger_frame_19.png',
+      'hamburger_frame_20.png',
+      'hamburger_frame_21.png',
+      'hamburger_frame_22.png',
+      'hamburger_frame_23.png',
+      'hamburger_frame_24.png',
+      'hamburger_frame_25.png',
+      'hamburger_frame_26.png',
+      'hamburger_frame_27.png',
+      'hamburger_frame_28.png',
+      'hamburger_frame_29.png',
+      'hamburger_frame_30.png',
+      'hamburger_frame_31.png',
+      'hamburger_frame_32.png',
+      'hamburger_frame_33.png',
+      'hamburger_frame_34.png',
+      'hamburger_frame_35.png',
+      'hamburger_frame_36.png',
+      'hamburger_frame_37.png',
+      'hamburger_frame_38.png',
+      'hamburger_frame_39.png',
+      'hamburger_frame_40.png',
+      'hamburger_frame_41.png',
+      'hamburger_frame_42.png',
+      'hamburger_frame_43.png',
+      'hamburger_frame_44.png',
+      'hamburger_frame_45.png',
+      'hamburger_frame_46.png',
+      'hamburger_frame_47.png',
+      'hamburger_frame_48.png',
+      'hamburger_frame_49.png',
+      'hamburger_frame_50.png',
+      'hamburger_frame_51.png',
+      'hamburger_frame_52.png',
+      'hamburger_frame_53.png',
+      'hamburger_frame_54.png',
+      'hamburger_frame_55.png',
+      'hamburger_frame_56.png',
+      'hamburger_frame_57.png',
+      'hamburger_frame_58.png',
+      'hamburger_frame_59.png',
+      'hamburger_frame_60.png',
+      'hamburger_frame_61.png',
+      'hamburger_frame_62.png',
+      'hamburger_frame_63.png',
+      'hamburger_frame_64.png'
+    ]);
+
 
     // Example: Apply a static cursor to a specific iframe (replace 'myIframeId' with your iframe's ID)
     // const mySpecificIframe = document.getElementById('myIframeId');
@@ -344,7 +410,73 @@ window.addEventListener("load", function() {
     // }
 
     // Example: Animate cursors for all same-origin iframes
-    animateCursorForIframe(['snoopy-frame1.png', 'snoopy-frame2.png']);
+    animateCursorForIframe([
+      'hamburger_frame_01.png',
+      'hamburger_frame_02.png',
+      'hamburger_frame_03.png',
+      'hamburger_frame_04.png',
+      'hamburger_frame_05.png',
+      'hamburger_frame_06.png',
+      'hamburger_frame_07.png',
+      'hamburger_frame_08.png',
+      'hamburger_frame_09.png',
+      'hamburger_frame_10.png',
+      'hamburger_frame_11.png',
+      'hamburger_frame_12.png',
+      'hamburger_frame_13.png',
+      'hamburger_frame_14.png',
+      'hamburger_frame_15.png',
+      'hamburger_frame_16.png',
+      'hamburger_frame_17.png',
+      'hamburger_frame_18.png',
+      'hamburger_frame_19.png',
+      'hamburger_frame_20.png',
+      'hamburger_frame_21.png',
+      'hamburger_frame_22.png',
+      'hamburger_frame_23.png',
+      'hamburger_frame_24.png',
+      'hamburger_frame_25.png',
+      'hamburger_frame_26.png',
+      'hamburger_frame_27.png',
+      'hamburger_frame_28.png',
+      'hamburger_frame_29.png',
+      'hamburger_frame_30.png',
+      'hamburger_frame_31.png',
+      'hamburger_frame_32.png',
+      'hamburger_frame_33.png',
+      'hamburger_frame_34.png',
+      'hamburger_frame_35.png',
+      'hamburger_frame_36.png',
+      'hamburger_frame_37.png',
+      'hamburger_frame_38.png',
+      'hamburger_frame_39.png',
+      'hamburger_frame_40.png',
+      'hamburger_frame_41.png',
+      'hamburger_frame_42.png',
+      'hamburger_frame_43.png',
+      'hamburger_frame_44.png',
+      'hamburger_frame_45.png',
+      'hamburger_frame_46.png',
+      'hamburger_frame_47.png',
+      'hamburger_frame_48.png',
+      'hamburger_frame_49.png',
+      'hamburger_frame_50.png',
+      'hamburger_frame_51.png',
+      'hamburger_frame_52.png',
+      'hamburger_frame_53.png',
+      'hamburger_frame_54.png',
+      'hamburger_frame_55.png',
+      'hamburger_frame_56.png',
+      'hamburger_frame_57.png',
+      'hamburger_frame_58.png',
+      'hamburger_frame_59.png',
+      'hamburger_frame_60.png',
+      'hamburger_frame_61.png',
+      'hamburger_frame_62.png',
+      'hamburger_frame_63.png',
+      'hamburger_frame_64.png'
+    ]);
+
 
     // Example: Animate cursors for 'li' tags within all same-origin iframes
     // animateCursorForElementInIframe(['Custom/sparkle/CursorStarSparkle-frame1.png', 'Custom/sparkle/CursorStarSparkle-frame2.png', 'Custom/sparkle/CursorStarSparkle-frame3.png', 'Custom/sparkle/CursorStarSparkle-frame4.png', 'Custom/sparkle/CursorStarSparkle-frame5.png', 'Custom/sparkle/CursorStarSparkle-frame6.png', 'Custom/sparkle/CursorStarSparkle-frame7.png', 'Custom/sparkle/CursorStarSparkle-frame8.png', 'Custom/sparkle/CursorStarSparkle-frame9.png', 'Custom/sparkle/CursorStarSparkle-frame10.png', 'Custom/sparkle/CursorStarSparkle-frame11.png', 'Custom/sparkle/CursorStarSparkle-frame12.png', 'Custom/sparkle/CursorStarSparkle-frame13.png', 'Custom/sparkle/CursorStarSparkle-frame14.png', 'Custom/sparkle/CursorStarSparkle-frame15.png', 'Custom/sparkle/CursorStarSparkle-frame16.png', 'Custom/sparkle/CursorStarSparkle-frame17.png', 'Custom/sparkle/CursorStarSparkle-frame18.png', 'Custom/sparkle/CursorStarSparkle-frame19.png', 'Custom/sparkle/CursorStarSparkle-frame20.png'], "li");
@@ -352,6 +484,6 @@ window.addEventListener("load", function() {
     // Existing examples for main document (uncomment to use)
     // animateCursorForElement(['Custom/sparkle/CursorStarSparkle-frame1.png', 'Custom/sparkle/CursorStarSparkle-frame2.png', 'Custom/sparkle/CursorStarSparkle-frame3.png', 'Custom/sparkle/CursorStarSparkle-frame4.png', 'Custom/sparkle/CursorStarSparkle-frame5.png', 'Custom/sparkle/CursorStarSparkle-frame6.png', 'Custom/sparkle/CursorStarSparkle-frame7.png', 'Custom/sparkle/CursorStarSparkle-frame8.png', 'Custom/sparkle/CursorStarSparkle-frame9.png', 'Custom/sparkle/CursorStarSparkle-frame10.png', 'Custom/sparkle/CursorStarSparkle-frame11.png', 'Custom/sparkle/CursorStarSparkle-frame12.png', 'Custom/sparkle/CursorStarSparkle-frame13.png', 'Custom/sparkle/CursorStarSparkle-frame14.png', 'Custom/sparkle/CursorStarSparkle-frame15.png', 'Custom/sparkle/CursorStarSparkle-frame16.png', 'Custom/sparkle/CursorStarSparkle-frame17.png', 'Custom/sparkle/CursorStarSparkle-frame18.png', 'Custom/sparkle/CursorStarSparkle-frame19.png', 'Custom/sparkle/CursorStarSparkle-frame20.png'], "li");
     // animateCursorForElement(['Custom/cupcakecursor/cupcakecursor_frame1.png', 'Custom/cupcakecursor/cupcakecursor_frame2.png', 'Custom/cupcakecursor/cupcakecursor_frame3.png'], "strong");
-    // animateCursorForElement(['Custom/snoopy-frame1.png', 'Custom/snoopy-frame2.png'], "h1");
-    // animateCursorForElement(['Custom/snoopy-frame1.png', 'Custom/snoopy-frame2.png'], "a");
+    // animateCursorForElement(['Custom/hamburger_frame_01.png', 'Custom/hamburger_frame_02.png'], "h1");
+    // animateCursorForElement(['Custom/hamburger_frame_01.png', 'Custom/hamburger_frame_02.png'], "a");
 });
