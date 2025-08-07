@@ -1,4 +1,4 @@
-# robots.txt for Inah's Hompy
+# robots.txt for Basa's Hompy
 
 # Allow all crawlers to access all content by default
 User-agent: *
