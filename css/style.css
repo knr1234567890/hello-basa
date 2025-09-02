@@ -224,3 +224,22 @@ a {
     box-shadow: none; /* 그림자 제거 */
     overflow-y: auto !important;
 }
+
+/* ...기존 스타일 */
+
+/* ===== 스크롤바 스타일 시작 ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #9c7fff;
+  border-radius: 4px;
+  border: 1px solid #d0c5ff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #805eff;
+}
+/* ===== 스크롤바 스타일 끝 ===== */
