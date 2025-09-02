@@ -47,16 +47,16 @@
     --font-weight-bold: 700;
     
     /* 색상 팔레트 */
-    --color-primary: rgb(97, 178, 255);   /* 주요 강조 색상 */
-    --color-link: rgb(46, 69, 224);       /* 링크 색상 (파랑) */
-    --color-text-primary: rgb(165, 196, 213);   /* 기본 텍스트 색상 */
-    --color-background-light: rgb(5, 18, 43); /* 배경색 */
+    --color-primary: rgb(51, 39, 122);   /* 주요 강조 색상 */
+    --color-link: rgb(217, 204, 255);       /* 링크 색상 (파랑) */
+    --color-text-primary: rgb(241, 234, 255);   /* 기본 텍스트 색상 */
+    --color-background-light: rgb(31, 31, 31); /* 배경색 */
     
     /* RGB 버전 (알파 투명도 사용 시) */
-    --color-primary-rgb: 97, 178, 255;
-    --color-link-rgb: 46, 69, 224;   
-    --color-text-primary-rgb: 165, 196, 213;
-    --color-background-light-rgb: 5, 18, 43;
+    --color-primary-rgb: 51, 39, 122;
+    --color-link-rgb: 217, 204, 255;   
+    --color-text-primary-rgb: 241, 234, 255;
+    --color-background-light-rgb: 31, 31, 31;
 
     /* 간격/여백 변수 (Spacing Variables) */
     --spacing-xxs: 0.25rem;
