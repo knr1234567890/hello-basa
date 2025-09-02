@@ -237,7 +237,7 @@ a {
 ::-webkit-scrollbar-thumb {
   background-color: #9c7fff;
   border-radius: 12px;
-  border: 1px solid #d0c5ff;
+  border: 2px solid #d0c5ff;
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: #805eff;
