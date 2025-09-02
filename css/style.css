@@ -47,14 +47,14 @@
     --font-weight-bold: 700;
     
     /* 색상 팔레트 */
-    --color-primary: rgb(165, 196, 213);   /* 주요 강조 색상 */
-    --color-link: rgb(165, 196, 213);       /* 링크 색상 (파랑) */
+    --color-primary: rgb(97, 178, 255);   /* 주요 강조 색상 */
+    --color-link: rgb(46, 69, 224);       /* 링크 색상 (파랑) */
     --color-text-primary: rgb(165, 196, 213);   /* 기본 텍스트 색상 */
     --color-background-light: rgb(5, 18, 43); /* 배경색 */
     
     /* RGB 버전 (알파 투명도 사용 시) */
-    --color-primary-rgb: 165, 196, 213;
-    --color-link-rgb: 165, 196, 213;   
+    --color-primary-rgb: 97, 178, 255;
+    --color-link-rgb: 46, 69, 224;   
     --color-text-primary-rgb: 165, 196, 213;
     --color-background-light-rgb: 5, 18, 43;
 
