@@ -68,7 +68,10 @@
 }
 
 /* 방명록 헤더 제목 */
-#chatroom-header-title{font-size: var(--font-size-small) !important; } /* 작은 폰트 크기 */
+#chatroom-header-title{
+    font-size: var(--font-size-small) !important; 
+    color: var(--color-text-primary);
+}
     
 /* --- 채팅방 버튼 (Chat Button) --- */
 /*
@@ -119,6 +122,7 @@
     word-wrap: break-word; /* 긴 단어가 줄바꿈되도록 */
     max-width: 90%; /* 최대 너비 */
     align-self: flex-start; /* 기본적으로 좌측 정렬 */
+    color: var(--color-text-primary);
 }
 
 /* --- 사용자 정보 입력 필드 (User Info Input Fields) --- */
