@@ -67,10 +67,10 @@
 
     /* 테두리 변수 (Border Variables) */
     --border-width-thin: 0.0625rem; /* 1px */
-    --border-style-dashed: dashed;
+    --border-style-dashed: solid;
     --border-style-solid: solid;
     --border-color-light: rgba(var(--color-text-primary-rgb), 0.15); /* 연한 테두리 색상 */
-    --border-radius-default: 1rem; /* 기본 테두리 둥글기 (16px) */
+    --border-radius-default: 0rem; /* 기본 테두리/ 둥글기 */
 
     /* 기존 stroke 변수들을 위 변수로 대체 */
     --stroke: var(--border-width-thin) var(--border-style-dashed) var(--color-text-primary);
@@ -175,6 +175,7 @@ a {
     box-sizing: border-box;
     transition: none; /* 모든 전환 효과 비활성화 */
     background-color: var(--color-background-light); /* 밝은 배경색 */
+    color: var(--color-text-primary); /* 텍스트 색상 적용 */
 }
 
 /* --- 우측 패널 (Right Panel) --- */
